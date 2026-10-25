@@ -1,0 +1,43 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 60;
+ objects = {
+  A00000000000000000000040 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardData.swift; path = Sources/SyllabusParser/DashboardData.swift; sourceTree = "<group>"; };
+  A00000000000000000000050 = {isa = PBXBuildFile; fileRef = A00000000000000000000040; };
+  A00000000000000000000041 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalAssistant.swift; path = Sources/SyllabusParser/LocalAssistant.swift; sourceTree = "<group>"; };
+  A00000000000000000000051 = {isa = PBXBuildFile; fileRef = A00000000000000000000041; };
+  A00000000000000000000042 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = Sources/SyllabusParser/DashboardView.swift; sourceTree = "<group>"; };
+  A00000000000000000000052 = {isa = PBXBuildFile; fileRef = A00000000000000000000042; };
+  A00000000000000000000043 = {isa = PBXFileReference; lastKnownFileType = text.json; name = VerifiedCalculus.json; path = Sources/SyllabusParser/Resources/VerifiedCalculus.json; sourceTree = "<group>"; };
+  A00000000000000000000053 = {isa = PBXBuildFile; fileRef = A00000000000000000000043; };
+  A00000000000000000000001 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2600; TargetAttributes = {A00000000000000000000002 = {CreatedOnToolsVersion = 26.0; }; }; }; buildConfigurationList = A00000000000000000000009; compatibilityVersion = "Xcode 16.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A00000000000000000000003; productRefGroup = A00000000000000000000004; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000002); };
+  A00000000000000000000002 = {isa = PBXNativeTarget; buildConfigurationList = A0000000000000000000000A; buildPhases = (A00000000000000000000005, A00000000000000000000006); buildRules = (); dependencies = (); name = SyllabusParser; productName = SyllabusParser; productReference = A00000000000000000000007; productType = "com.apple.product-type.application"; };
+  A00000000000000000000003 = {isa = PBXGroup; children = (A0000000000000000000000F, A00000000000000000000010, A00000000000000000000011, A00000000000000000000012, A00000000000000000000013, A00000000000000000000014, A00000000000000000000015, A00000000000000000000040, A00000000000000000000041, A00000000000000000000042, A00000000000000000000043); sourceTree = "<group>"; };
+  A00000000000000000000004 = {isa = PBXGroup; children = (A00000000000000000000007); name = Products; sourceTree = "<group>"; };
+  A00000000000000000000005 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000021, A00000000000000000000022, A00000000000000000000023, A00000000000000000000024, A00000000000000000000025, A00000000000000000000026, A00000000000000000000050, A00000000000000000000051, A00000000000000000000052); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000006 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000053); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000007 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyllabusParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  A00000000000000000000009 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000031, A00000000000000000000032); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A0000000000000000000000A = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000033, A00000000000000000000034); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A0000000000000000000000F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = App.swift; path = Sources/SyllabusParser/App.swift; sourceTree = "<group>"; };
+  A00000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Models.swift; path = Sources/SyllabusParser/Models.swift; sourceTree = "<group>"; };
+  A00000000000000000000011 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/SyllabusParser/Document.swift; sourceTree = "<group>"; };
+  A00000000000000000000012 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extractor.swift; path = Sources/SyllabusParser/Extractor.swift; sourceTree = "<group>"; };
+  A00000000000000000000013 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Sources/SyllabusParser/Validation.swift; sourceTree = "<group>"; };
+  A00000000000000000000014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Samples.swift; path = Sources/SyllabusParser/Samples.swift; sourceTree = "<group>"; };
+  A00000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SyllabusParser.entitlements; sourceTree = "<group>"; };
+  A00000000000000000000021 = {isa = PBXBuildFile; fileRef = A0000000000000000000000F; };
+  A00000000000000000000022 = {isa = PBXBuildFile; fileRef = A00000000000000000000010; };
+  A00000000000000000000023 = {isa = PBXBuildFile; fileRef = A00000000000000000000011; };
+  A00000000000000000000024 = {isa = PBXBuildFile; fileRef = A00000000000000000000012; };
+  A00000000000000000000025 = {isa = PBXBuildFile; fileRef = A00000000000000000000013; };
+  A00000000000000000000026 = {isa = PBXBuildFile; fileRef = A00000000000000000000014; };
+  A00000000000000000000031 = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 26.0; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Debug; };
+  A00000000000000000000032 = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; MACOSX_DEPLOYMENT_TARGET = 26.0; SDKROOT = macosx; SWIFT_VERSION = 6.0; }; name = Release; };
+  A00000000000000000000033 = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = SyllabusParser.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Syllabus Parser"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; MACOSX_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = edu.prototype.SyllabusParser; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; }; name = Debug; };
+  A00000000000000000000034 = {isa = XCBuildConfiguration; buildSettings = { CODE_SIGN_ENTITLEMENTS = SyllabusParser.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Syllabus Parser"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education"; MACOSX_DEPLOYMENT_TARGET = 26.0; MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = edu.prototype.SyllabusParser; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; }; name = Release; };
+ };
+ rootObject = A00000000000000000000001;
+}

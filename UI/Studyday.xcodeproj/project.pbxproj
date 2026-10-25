@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+        E10000000000000000000002 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = StudydayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        E10000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudydayTests/IntegrationTests.swift; sourceTree = SOURCE_ROOT; };
+        E10000000000000000000004 = {isa = PBXBuildFile; fileRef = E10000000000000000000003; };
+        E10000000000000000000005 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (E10000000000000000000004); runOnlyForDeploymentPostprocessing = 0; };
+        E10000000000000000000006 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        E10000000000000000000007 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        E1000000000000000000000A = {isa = PBXContainerItemProxy; containerPortal = A10000000000000000000001; proxyType = 1; remoteGlobalIDString = A10000000000000000000002; remoteInfo = Studyday; };
+        E10000000000000000000009 = {isa = PBXTargetDependency; target = A10000000000000000000002; targetProxy = E1000000000000000000000A; };
+        E10000000000000000000008 = {isa = XCConfigurationList; buildConfigurations = (E1000000000000000000000B, E1000000000000000000000C); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        E10000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = E10000000000000000000008; buildPhases = (E10000000000000000000005, E10000000000000000000006, E10000000000000000000007); buildRules = (); dependencies = (E10000000000000000000009); name = StudydayTests; productName = StudydayTests; productReference = E10000000000000000000002; productType = "com.apple.product-type.bundle.unit-test"; };
+        E1000000000000000000000B = {isa = XCBuildConfiguration; name = Debug; buildSettings = {GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.studyday.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx"; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MACOSX_DEPLOYMENT_TARGET = 26.0; CODE_SIGN_STYLE = Automatic; BUNDLE_LOADER = "$(TEST_HOST)"; "TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Studyday.app/Contents/MacOS/Studyday"; "TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/Studyday.app/Studyday"; }; };
+        E1000000000000000000000C = {isa = XCBuildConfiguration; name = Release; buildSettings = {GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = com.studyday.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx"; IPHONEOS_DEPLOYMENT_TARGET = 26.0; MACOSX_DEPLOYMENT_TARGET = 26.0; CODE_SIGN_STYLE = Automatic; BUNDLE_LOADER = "$(TEST_HOST)"; "TEST_HOST[sdk=macosx*]" = "$(BUILT_PRODUCTS_DIR)/Studyday.app/Contents/MacOS/Studyday"; "TEST_HOST[sdk=iphone*]" = "$(BUILT_PRODUCTS_DIR)/Studyday.app/Studyday"; }; };
+
+		D10000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoreModels.swift; path = "../SyllabusParser/Sources/SyllabusParser/Models.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000001 = {isa = PBXBuildFile; fileRef = D10000000000000000000001; };
+		D10000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Document.swift; path = "../SyllabusParser/Sources/SyllabusParser/Document.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000002 = {isa = PBXBuildFile; fileRef = D10000000000000000000002; };
+		D10000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extractor.swift; path = "../SyllabusParser/Sources/SyllabusParser/Extractor.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000003 = {isa = PBXBuildFile; fileRef = D10000000000000000000003; };
+		D10000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = "../SyllabusParser/Sources/SyllabusParser/Validation.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000004 = {isa = PBXBuildFile; fileRef = D10000000000000000000004; };
+		D10000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DashboardData.swift; path = "../SyllabusParser/Sources/SyllabusParser/DashboardData.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000005 = {isa = PBXBuildFile; fileRef = D10000000000000000000005; };
+		D10000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalAssistant.swift; path = "../SyllabusParser/Sources/SyllabusParser/LocalAssistant.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000006 = {isa = PBXBuildFile; fileRef = D10000000000000000000006; };
+		D10000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Samples.swift; path = "../SyllabusParser/Sources/SyllabusParser/Samples.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000007 = {isa = PBXBuildFile; fileRef = D10000000000000000000007; };
+		D10000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = text.json; name = VerifiedCalculus.json; path = "../SyllabusParser/Sources/SyllabusParser/Resources/VerifiedCalculus.json"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000008 = {isa = PBXBuildFile; fileRef = D10000000000000000000008; };
+		D10000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackendViews.swift; path = "Studyday/Views/BackendViews.swift"; sourceTree = SOURCE_ROOT; };
+		D20000000000000000000009 = {isa = PBXBuildFile; fileRef = D10000000000000000000009; };
+		D30000000000000000000001 = {isa = PBXGroup; name = "Shared on-device backend"; sourceTree = "<group>"; children = (D10000000000000000000001, D10000000000000000000002, D10000000000000000000003, D10000000000000000000004, D10000000000000000000005, D10000000000000000000006, D10000000000000000000007, D10000000000000000000008, D10000000000000000000009); };
+
+/* Begin PBXBuildFile section */
+		C00000000000000000000001 /* StudydayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* StudydayApp.swift */; };
+		C00000000000000000000002 /* StudydayModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* StudydayModels.swift */; };
+		C00000000000000000000003 /* ServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* ServiceProtocols.swift */; };
+		C00000000000000000000004 /* LocalServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* LocalServices.swift */; };
+		C00000000000000000000005 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* AppModel.swift */; };
+		C00000000000000000000006 /* StudydayTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* StudydayTheme.swift */; };
+		C00000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* RootView.swift */; };
+		C00000000000000000000008 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* MainTabView.swift */; };
+		C00000000000000000000009 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* LoginView.swift */; };
+		C0000000000000000000000A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* HomeView.swift */; };
+		C0000000000000000000000B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* ChatView.swift */; };
+		C0000000000000000000000C /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* CourseDetailView.swift */; };
+		C0000000000000000000000D /* CourseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* CourseEditView.swift */; };
+		A10000000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000006 /* Studyday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Studyday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000001 /* StudydayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudydayApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* StudydayModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudydayModels.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* ServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocols.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* LocalServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalServices.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* StudydayTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudydayTheme.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000D /* CourseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEditView.swift; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000015 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000007 /* Studyday */,
+				D30000000000000000000001 /* Shared on-device backend */,
+				E10000000000000000000003,
+				A10000000000000000000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000006 /* Studyday.app */,
+				E10000000000000000000002,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000007 /* Studyday */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* StudydayApp.swift */,
+				A10000000000000000000009 /* Models */,
+				A1000000000000000000000A /* Services */,
+				A1000000000000000000000B /* Theme */,
+				A1000000000000000000000C /* Views */,
+				A10000000000000000000011 /* Resources */,
+				A10000000000000000000014 /* Info.plist */,
+			);
+			path = Studyday;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000009 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000002 /* StudydayModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000003 /* ServiceProtocols.swift */,
+				B00000000000000000000004 /* LocalServices.swift */,
+				B00000000000000000000005 /* AppModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000006 /* StudydayTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* RootView.swift */,
+				B00000000000000000000008 /* MainTabView.swift */,
+				A1000000000000000000000D /* Auth */,
+				A1000000000000000000000E /* Home */,
+				A1000000000000000000000F /* Chat */,
+				A10000000000000000000010 /* Course */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000009 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000A /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1000000000000000000000F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000B /* ChatView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000010 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000C /* CourseDetailView.swift */,
+				B0000000000000000000000D /* CourseEditView.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000012 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000002 /* Studyday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000021 /* Build configuration list for PBXNativeTarget "Studyday" */;
+			buildPhases = (
+				A10000000000000000000003 /* Sources */,
+				A10000000000000000000005 /* Frameworks */,
+				A10000000000000000000004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Studyday;
+			productName = Studyday;
+			productReference = A10000000000000000000006 /* Studyday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A10000000000000000000002 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000020 /* Build configuration list for PBXProject "Studyday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000015 /* Root */;
+			productRefGroup = A10000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000002 /* Studyday */,
+				E10000000000000000000001,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20000000000000000000008,
+
+				A10000000000000000000013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20000000000000000000001,
+				D20000000000000000000002,
+				D20000000000000000000003,
+				D20000000000000000000004,
+				D20000000000000000000005,
+				D20000000000000000000006,
+				D20000000000000000000007,
+				D20000000000000000000009,
+
+				C00000000000000000000001 /* StudydayApp.swift in Sources */,
+				C00000000000000000000002 /* StudydayModels.swift in Sources */,
+				C00000000000000000000003 /* ServiceProtocols.swift in Sources */,
+				C00000000000000000000004 /* LocalServices.swift in Sources */,
+				C00000000000000000000005 /* AppModel.swift in Sources */,
+				C00000000000000000000006 /* StudydayTheme.swift in Sources */,
+				C00000000000000000000007 /* RootView.swift in Sources */,
+				C00000000000000000000008 /* MainTabView.swift in Sources */,
+				C00000000000000000000009 /* LoginView.swift in Sources */,
+				C0000000000000000000000A /* HomeView.swift in Sources */,
+				C0000000000000000000000B /* ChatView.swift in Sources */,
+				C0000000000000000000000C /* CourseDetailView.swift in Sources */,
+				C0000000000000000000000D /* CourseEditView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = auto;
+			};
+			name = Debug;
+		};
+		A10000000000000000000031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = auto;
+			};
+			name = Release;
+		};
+		A10000000000000000000032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = ../SyllabusParser/SyllabusParser.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Studyday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyday.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_ENTITLEMENTS[sdk=macosx*]" = ../SyllabusParser/SyllabusParser.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Studyday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studyday.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000020 /* Build configuration list for PBXProject "Studyday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000030 /* Debug */,
+				A10000000000000000000031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000021 /* Build configuration list for PBXNativeTarget "Studyday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000032 /* Debug */,
+				A10000000000000000000033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}

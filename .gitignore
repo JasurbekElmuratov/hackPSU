@@ -1,0 +1,39 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build products and local tool caches
+.build/
+build/
+DerivedData/
+.swiftpm/
+*.app/
+*.dSYM/
+*.xcarchive/
+*.xcresult/
+*.ipa
+*.log
+
+# Per-user Xcode state; shared schemes remain tracked
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+
+# Generated local syllabus outputs and run evidence
+/SyllabusParser/syllabus-result.json
+/SyllabusParser/Diagnostics/*
+!/SyllabusParser/Diagnostics/*.md
+/UI/Verification/*
+!/UI/Verification/*.md
+
+# Local configuration, credentials, and signing material
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile

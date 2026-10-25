@@ -1,0 +1,319 @@
+{
+  "classSchedules" : [
+    {
+      "days" : [
+        "Tuesday",
+        "Thursday"
+      ],
+      "source" : {
+        "page" : 1,
+        "quote" : "• Class Schedule: Tu & Th 6 - 7:55 PM."
+      },
+      "timeText" : "6 - 7:55 PM"
+    }
+  ],
+  "courseCode" : {
+    "source" : {
+      "page" : 1,
+      "quote" : "MATH 141-005: Calculus with Analytic Geometry II"
+    },
+    "value" : "MATH 141-005"
+  },
+  "courseName" : {
+    "source" : {
+      "page" : 1,
+      "quote" : "MATH 141-005: Calculus with Analytic Geometry II"
+    },
+    "value" : "Calculus with Analytic Geometry II"
+  },
+  "events" : [
+    {
+      "certainty" : "explicit",
+      "dateText" : "Tu Sep 29th",
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 1 Tu Sep 29th"
+      },
+      "title" : "Exam 1"
+    },
+    {
+      "certainty" : "explicit",
+      "dateText" : "Tu Nov 3rd",
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 2 Tu Nov 3rd"
+      },
+      "title" : "Exam 2"
+    },
+    {
+      "certainty" : "explicit",
+      "dateText" : "Th Dec 3rd",
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 3 Th Dec 3rd"
+      },
+      "title" : "Exam 3"
+    }
+  ],
+  "gradeScale" : [
+    {
+      "grade" : "B+",
+      "lowerBound" : 87,
+      "lowerInclusive" : true,
+      "rangeText" : "87-89.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "87-89.99\tB+"
+      },
+      "upperBound" : 89.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "B-",
+      "lowerBound" : 80,
+      "lowerInclusive" : true,
+      "rangeText" : "80-82.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "80-82.99\tB-"
+      },
+      "upperBound" : 82.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "C+",
+      "lowerBound" : 77,
+      "lowerInclusive" : true,
+      "rangeText" : "77-79.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "77-79.99\tC+"
+      },
+      "upperBound" : 79.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "F",
+      "rangeText" : "Under 60",
+      "source" : {
+        "page" : 1,
+        "quote" : "Under 60\tF"
+      },
+      "upperBound" : 60,
+      "upperInclusive" : false
+    },
+    {
+      "grade" : "A",
+      "lowerBound" : 93,
+      "lowerInclusive" : true,
+      "rangeText" : "93–100",
+      "source" : {
+        "page" : 1,
+        "quote" : "93–100 A",
+        "textOrigin" : "rawPDFText"
+      },
+      "upperBound" : 100,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "A-",
+      "lowerBound" : 90,
+      "lowerInclusive" : true,
+      "rangeText" : "90–92.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "90–92.99 A-",
+        "textOrigin" : "rawPDFText"
+      },
+      "upperBound" : 92.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "B",
+      "lowerBound" : 83,
+      "lowerInclusive" : true,
+      "rangeText" : "83–86.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "83–86.99 B",
+        "textOrigin" : "rawPDFText"
+      },
+      "upperBound" : 86.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "C",
+      "lowerBound" : 70,
+      "lowerInclusive" : true,
+      "rangeText" : "70–76.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "70–76.99 C",
+        "textOrigin" : "rawPDFText"
+      },
+      "upperBound" : 76.99,
+      "upperInclusive" : true
+    },
+    {
+      "grade" : "D",
+      "lowerBound" : 60,
+      "lowerInclusive" : true,
+      "rangeText" : "60–69.99",
+      "source" : {
+        "page" : 1,
+        "quote" : "60–69.99 D",
+        "textOrigin" : "rawPDFText"
+      },
+      "upperBound" : 69.99,
+      "upperInclusive" : true
+    }
+  ],
+  "grading" : [
+    {
+      "category" : "Quizzes",
+      "percentage" : 20,
+      "source" : {
+        "page" : 2,
+        "quote" : "Quizzes\t20%"
+      }
+    },
+    {
+      "category" : "Exam 1",
+      "percentage" : 25,
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 1\t25%"
+      }
+    },
+    {
+      "category" : "Exam 2",
+      "percentage" : 25,
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 2\t25%"
+      }
+    },
+    {
+      "category" : "Exam 3",
+      "percentage" : 25,
+      "source" : {
+        "page" : 2,
+        "quote" : "Exam 3\t25%"
+      }
+    },
+    {
+      "category" : "Participation/Attendance",
+      "percentage" : 5,
+      "source" : {
+        "page" : 2,
+        "quote" : "Participation/Attendance\t5%"
+      }
+    }
+  ],
+  "gradingPolicies" : [
+    {
+      "source" : {
+        "page" : 1,
+        "quote" : "Calculators and formula sheets are not allowed in exams and quizzes."
+      },
+      "value" : "Calculators and formula sheets are not allowed in exams and quizzes."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "No Calculators and No Formulas."
+      },
+      "value" : "No Calculators and No Formulas."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "Homework will not be collected, however some homework problems will be studied in class."
+      },
+      "value" : "Homework will not be collected, however some homework problems will be studied in class."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "The two lowest quiz scores will be dropped."
+      },
+      "value" : "The two lowest quiz scores will be dropped."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "Because this policy is in place to handle emergencies, absolutely no make-up quizzes will be given."
+      },
+      "value" : "Because this policy is in place to handle emergencies, absolutely no make-up quizzes will be given."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "A missed quiz will automatically count as one of your drops."
+      },
+      "value" : "A missed quiz will automatically count as one of your drops."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "Makeups for exams are only allowed under true emergencies."
+      },
+      "value" : "Makeups for exams are only allowed under true emergencies."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "If a makeup exam is allowed, it will be entirely different in format and content."
+      },
+      "value" : "If a makeup exam is allowed, it will be entirely different in format and content."
+    }
+  ],
+  "instructor" : {
+    "source" : {
+      "page" : 1,
+      "quote" : "• Instructor: Dr. Taoufik Meklachi, Associate Teaching Professor."
+    },
+    "value" : "Dr. Taoufik Meklachi, Associate Teaching Professor"
+  },
+  "recurringRules" : [
+    {
+      "source" : {
+        "page" : 1,
+        "quote" : "• Class Schedule: Tu & Th 6 - 7:55 PM."
+      },
+      "value" : "• Class Schedule: Tu & Th 6 - 7:55 PM."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "Homework will be assigned throughout the semester for practice, approximately every week."
+      },
+      "value" : "Homework will be assigned throughout the semester for practice, approximately every week."
+    },
+    {
+      "source" : {
+        "page" : 2,
+        "quote" : "Weekly quizzes will cover material from the previous week."
+      },
+      "value" : "Weekly quizzes will cover material from the previous week."
+    }
+  ],
+  "semester" : {
+    "source" : {
+      "page" : 1,
+      "quote" : "Fall 2026 Syllabus"
+    },
+    "value" : "Fall 2026"
+  },
+  "warnings" : [
+    "Page 1: OCR is evidence from the page image and may contain errors. Compare with the PDF and raw text.",
+    "Page 1: Possible font encoding damage in PDF text; attempted local OCR.",
+    "Page 2: OCR is evidence from the page image and may contain errors. Compare with the PDF and raw text.",
+    "Page 2: Possible font encoding damage in PDF text; attempted local OCR.",
+    "Page 3: OCR is evidence from the page image and may contain errors. Compare with the PDF and raw text.",
+    "Page 3: Possible font encoding damage in PDF text; attempted local OCR.",
+    "Page 4: OCR is evidence from the page image and may contain errors. Compare with the PDF and raw text.",
+    "Page 4: Possible font encoding damage in PDF text; attempted local OCR.",
+    "Rejected unsupported recurring activity; left unknown."
+  ]
+}

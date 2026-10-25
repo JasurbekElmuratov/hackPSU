@@ -1,0 +1,5 @@
+CS 101 — Introduction to Programming
+Fall 2026. Instructor: Dr. Mira Chen.
+Grading: Homework 30%, Midterm Exam 25%, Final Exam 35%, Participation 10%.
+Midterm Exam: October 15, 2026. Final Exam: December 10, 2026.
+Project 1 is due September 24, 2026.
